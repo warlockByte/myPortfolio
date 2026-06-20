@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import profileImage from "../assets/images/gambar-profile.png";
+import profileImage from "../assets/images/Portfolio_pfp.jpeg";
 import '../assets/styles/Main.scss';
 
 
