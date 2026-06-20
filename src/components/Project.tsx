@@ -1,5 +1,5 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
+import mkmockup from '../assets/images/mkmockup.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
@@ -15,6 +15,7 @@ function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
+        {/*
         <div className="projects-grid">
             <div className="project">
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -66,7 +67,15 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
             </div>
+        </div>*/}
+        <div className="projects-grid">
+            <div className="project">
+                <a href="https://github.com/warlockByte/masakimia.git" target="_blank" rel="noreferrer"><img src={mkmockup} className="zoom" alt="thumbnail" /></a>
+                <a href="https://github.com/warlockByte/masakimia.git" target="_blank" rel="noreferrer"><h2>Masakimia</h2></a>
+                <p>Developed a mobile application for chemistry students to learn chemical substances.</p>
+            </div>
         </div>
+        <h1>Coming soon...</h1>
     </div>
     );
 }
