@@ -21,6 +21,10 @@
 }
   
 .zoom {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1895 / 895;
+    object-fit: contain;
     border-radius: 5px;
     transition: transform .2s;
     margin: 0 auto;

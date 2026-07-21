@@ -1,5 +1,6 @@
 import React from "react";
-import mkmockup from '../assets/images/mkmockup.png';
+import masakimiaMockup from '../assets/images/Mockup.png';
+import arkibiaDashboard from '../assets/images/arkibia-dashboard.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
@@ -70,12 +71,16 @@ function Project() {
         </div>*/}
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/warlockByte/masakimia.git" target="_blank" rel="noreferrer"><img src={mkmockup} className="zoom" alt="thumbnail" /></a>
+                <a href="https://github.com/warlockByte/Arkibia" target="_blank" rel="noreferrer"><img src={arkibiaDashboard} className="zoom" alt="Arkibia collection dashboard" /></a>
+                <a href="https://github.com/warlockByte/Arkibia" target="_blank" rel="noreferrer"><h2>Arkibia</h2></a>
+                <p>Developed a web application that lets users organize and manage their personal collections of movies, games, books, and music.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/warlockByte/masakimia.git" target="_blank" rel="noreferrer"><img src={masakimiaMockup} className="zoom" alt="Masakimia application mockup" /></a>
                 <a href="https://github.com/warlockByte/masakimia.git" target="_blank" rel="noreferrer"><h2>Masakimia</h2></a>
                 <p>Developed a mobile application for chemistry students to learn chemical substances.</p>
             </div>
         </div>
-        <h1>Coming soon...</h1>
     </div>
     );
 }
