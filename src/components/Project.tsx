@@ -1,15 +1,7 @@
 import React from "react";
 import masakimiaMockup from '../assets/images/Mockup.png';
 import arkibiaDashboard from '../assets/images/arkibia-dashboard.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import fotokitaPreview from '../assets/images/fotokita.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -70,6 +62,11 @@ function Project() {
             </div>
         </div>*/}
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://github.com/warlockByte/FotoKita" target="_blank" rel="noreferrer"><img src={fotokitaPreview} className="zoom" alt="FotoKita wedding photography website" /></a>
+                <a href="https://github.com/warlockByte/FotoKita" target="_blank" rel="noreferrer"><h2>FotoKita</h2></a>
+                <p>Designed and developed a modern, responsive portfolio website for a wedding photography brand.</p>
+            </div>
             <div className="project">
                 <a href="https://github.com/warlockByte/Arkibia" target="_blank" rel="noreferrer"><img src={arkibiaDashboard} className="zoom" alt="Arkibia collection dashboard" /></a>
                 <a href="https://github.com/warlockByte/Arkibia" target="_blank" rel="noreferrer"><h2>Arkibia</h2></a>
